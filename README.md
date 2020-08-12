@@ -6,11 +6,11 @@ In this challenge, you will write an API that can be used to manage _Cars_ store
 
 Follow these steps for starting your project.
 
-- [ ] Fork this repository into your account and **clone your version**.
-- [ ] Add your _Team Lead_ as collaborator on your repository.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Fork this repository into your account and **clone your version**.
+- [x] Add your _Team Lead_ as collaborator on your repository.
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -24,6 +24,14 @@ Follow these steps for completing your project.
 - Configure `knex` to connect to a `/data/car-dealer.db3` database using the `sqlite3` npm module.
 - Write endpoints to support `CREATE` and `READ` operations on the `cars` resource.
 - Use a rest client like _Insomnia_ or _Postman_ to test your API.
+
+- cars table schema
+
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+id ---- VIN ---- make ---- model ---- mileage ---- transmission ---- title status
+
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 
 ## Specifications
 
